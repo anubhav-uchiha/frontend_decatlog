@@ -1,0 +1,170 @@
+.cardOuterDiv {
+  box-sizing: border-box;
+  width: 150px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cardTopDiv {
+  box-sizing: border-box;
+  width: 148px;
+  height: 148px;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.childDiv {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 49px;
+  height: 48px;
+  border-radius: 8px 8px 13px 8px;
+  background: rgba(11, 219, 182, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.childDiv:hover {
+  transform: scale(1.07);
+  transition: transform 0.5s ease-in-out;
+}
+
+.image2 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 16px;
+  height: 18.67px;
+}
+
+.image1 {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 0px;
+  height: 200px;
+  border-radius: 16px;
+  position: relative;
+  bottom: 26px;
+  object-fit: cover;
+}
+
+.heading,
+.heading2 {
+  box-sizing: border-box;
+  width: 150px;
+  height: 48px;
+  margin: 0 auto;
+  padding: auto 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.heading2 {
+  width: 100px;
+}
+/*comp styles below*/
+.outermostSearchContainer {
+  box-sizing: border-box;
+  height: fit-content;
+  padding: 85px 0px;
+}
+
+.searchContainer {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 316px;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.topDiv {
+  box-sizing: border-box;
+  width: 317px;
+  height: 62px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popular {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 317px;
+  height: 32px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.popularSpan {
+  color: rgba(11, 219, 182, 1);
+}
+
+.searchPara {
+  box-sizing: border-box;
+  width: 271px;
+  height: 20px;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(125, 125, 125, 1);
+}
+
+.btmDiv {
+  box-sizing: border-box;
+  width: 1136px;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+@media (max-width: 500px) {
+  .btmDiv {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 850px) {
+  .btmDiv {
+    width: 90vw;
+    height: fit-content;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+/**/
+
+@media (min-width: 1128px) {
+  .searchContainer {
+    box-sizing: border-box;
+    width: 1128px;
+  }
+}

@@ -1,0 +1,301 @@
+.cardOuter {
+  width: 776px;
+  height: 280px;
+  padding-top: 35.75px;
+  padding-bottom: 35.25px;
+  padding-left: 22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 91px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+.docDetailCardOuter {
+  width: 1128px;
+  height: 280px;
+  gap: 435px;
+  padding: 32px 30px 33px 31px;
+}
+
+.teacherListingCardOuter {
+  padding: 33px 15px;
+  gap: 55px;
+}
+
+.teacherDetailCardOuter {
+  width: 1128px;
+  height: 280px;
+  gap: 387px;
+  padding: 28px 0 29px 31px;
+}
+
+.caListingCardOuter {
+  padding: 33px 31.27px;
+  gap: 0px;
+  justify-content: space-between;
+}
+
+.caDetailCardOuter {
+  width: 1128px;
+  height: 280px;
+  padding: 28px 80px 29px 31px;
+  gap: 0px;
+}
+
+.labourListingCardOuter {
+  padding: 34px 26.27px 34px 26.5px;
+  gap: 161px;
+  justify-content: flex-start;
+}
+
+.labourDetailCardOuter {
+  width: 1128px;
+  height: 280px;
+  padding: 28px 60px 31px 31px;/*padding right is changed from 78 to 60 to increase gap*/
+  gap: 460px;
+}
+
+.cardLeft {
+  width: 596px;
+  width: fit-content;
+  height: 223px;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.docDetailCardLeft {
+  width: fit-content;
+  height: fit-content;
+  gap: 30px;
+}
+
+.imgDiv {
+  width: 140px;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  
+
+}
+
+.image {
+  width: 140px;
+  height: 140px;
+}
+
+.ratingContainer {
+  width: 45.13px;
+  height: 29px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  border-radius: 4.5px;
+  background: rgba(35, 146, 80, 1);
+  color: white;
+}
+
+.rating,
+.reviews {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.reviews {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0 auto;
+}
+
+.details {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 05px;
+}
+
+.name,
+.title,
+.qual,
+.address,
+.action,
+.action1 {
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.name {
+  width: 300px;
+  height: 36px;
+  color: rgba(11, 219, 182, 1);
+}
+/**/
+.docDetailName {
+  height: 45px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+}
+/**/
+.title,
+.qual {
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.qual {
+  height: 19px;
+  line-height: 19.2px;
+}
+
+.address {
+  font-size: 20px;
+  line-height: 29.93px;
+  margin-top: 5px;
+}
+
+.btnContainer {
+  width: fit-content;
+  height: 37px;
+  display: flex;
+  gap: 30px;
+  margin-top: 11px;
+}
+
+.call,
+.call1 {
+  width: fit-content;
+  padding: 7.5px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5px;
+  border-radius: 7.5px;
+  border: 0.75px solid rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.call:hover:not(.clickedAppointment) {
+  border: 1px solid rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+  color: rgba(31, 239, 202, 1);
+}
+
+.clickedAppointment {
+  border: 1px solid transparent;
+  background: rgba(31, 239, 202, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.call1 {
+  border: 0px solid rgba(0, 0, 0, 1);
+  background: rgba(11, 219, 182, 1);
+}
+
+.call1:hover {
+  background: rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+}
+
+.action1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.action,
+.action1 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.caBookConsultation {
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.icon2 {
+  width: 22px;
+  height: 22px;
+}
+
+.cardRight {
+  width: fit-content;
+  height: fit-content;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.cardRightImg1 {
+  width: 19.23px;
+  height: 20px;
+}
+
+.cardRightImg2 {
+  width: 19px !important;
+}
+
+.heartClicked {
+  width: 160px;
+  height: 30px;
+  height: 18px;
+}
+
+.rate,
+.lessons {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.lessons {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 19.5px;
+  color: rgba(110, 110, 110, 1);
+  text-align: left;
+}
+
+.customQual4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: rgba(0, 0, 0, 1);
+}

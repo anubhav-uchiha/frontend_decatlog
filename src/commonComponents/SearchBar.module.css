@@ -1,0 +1,187 @@
+.upperDiv {
+  box-sizing: border-box;
+  width: 937px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.topUpper {
+  box-sizing: border-box;
+  height: 32px;
+}
+
+.paraTopUpper {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(34, 34, 34, 1);
+}
+
+.paraSpanTopUpper {
+  box-sizing: border-box;
+  color: rgba(11, 219, 182, 1);
+}
+
+.btmUpper {
+  box-sizing: border-box;
+  width: 937px;
+  height: 48px;
+  border-radius: 8px 8px 8px 8px;
+  border-right-width: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0px;
+}
+
+.leftBtmUpper {
+  box-sizing: border-box;
+  width: 240px;
+  height: 48px;
+  display: flex;
+  padding: 4px 0px 4px 0px;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid rgba(147, 143, 150, 1);
+  border: 1px solid rgba(11, 219, 182, 1); /**/
+  background: rgba(255, 255, 255, 1);
+  border-right-width: 1px;
+}
+
+.iconDiv {
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  padding: 13px 16px 15px 16px;
+  gap: 0px;
+  position: relative;
+  bottom: 4px;
+}
+
+.iconLocation {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  color: rgba(147, 143, 150, 1);
+}
+
+.inputIconDiv {
+  box-sizing: border-box;
+  width: 192px;
+  height: 40px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inputBtm {
+  box-sizing: border-box;
+  width: 130px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: rgba(147, 143, 150, 1);
+}
+
+.downIcon {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 0px;
+  gap: 0px;
+  border: 1.5px 0px 0px 0px;
+}
+
+.midBtmUpper {
+  box-sizing: border-box;
+  width: 650px;
+  height: 48px;
+  padding: 6px 9px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(147, 143, 150, 1);
+  border: 1px solid rgba(11, 219, 182, 1); /**/
+  border-left-width: 0px;
+}
+
+.input2 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 36px;
+  padding: 8px 0px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: rgba(147, 143, 150, 1);
+  text-overflow: ellipsis;
+}
+
+.rightBtmUpper {
+  width: 48px;
+  height: 48px;
+  background: rgba(11, 219, 182, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  border-left: none;
+}
+
+@media (max-width: 451px) {
+  .upperDiv {
+    width: 100vw;
+  }
+
+  .paraTopUpper {
+    font-size: 15.9px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .btmUpper {
+    width: 100vw;
+  }
+
+  .leftBtmUpper {
+    box-sizing: border-box;
+    width: 215px;
+  }
+
+  .inputIconDiv {
+    width: 110px;
+    padding-left: 0;
+  }
+
+  .inputBtm {
+    width: 80px;
+  }
+
+  .midBtmUpper {
+    width: 300px;
+  }
+}
+
+/**/
+@media (min-width: 677px) and (max-width: 1128px){
+  .upperDiv {
+    width: 100vw;
+  }
+
+  .btmUpper {
+    width: 100vw;
+  }
+}

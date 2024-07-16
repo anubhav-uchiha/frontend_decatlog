@@ -1,0 +1,276 @@
+.cardOuter {
+  width: 769px;
+  height: 280px;
+  padding: 35.5px 31.27px 35.5px 31.5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.advocateDetailCardOuter {
+  width: 1128px;
+  height: 280px;
+  gap: 388px;
+  padding: 28px 10px 31px 31px;
+}
+
+.cardLeft {
+  width: 607px;
+  height: 209px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.advocateDetailCardLeft {
+  width: fit-content;
+  height: fit-content; /*chosse one only*/
+  width: 627px;
+  height: 221px;
+  gap: 30px;
+}
+
+.imgDiv {
+  width: 140px;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.advocateDetailImgDiv {
+  margin: 6px 0;
+}
+
+.image {
+  width: 140px;
+  height: 140px;
+}
+
+.ratingContainer {
+  width: 45.13px;
+  height: 29px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  border-radius: 4.5px;
+  background: rgba(35, 146, 80, 1);
+  color: white;
+}
+
+.rating,
+.reviews {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: left;
+}
+
+.reviews {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0 auto;
+}
+
+.details {
+  width: 447px;
+  width: fit-content;
+  height: 188px;
+  height: fit-content;
+  margin:10.5px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.advocateDetails {
+  width: 457px;
+  height: 221px;
+  margin: 0;
+}
+
+.name,
+.title,
+.qual,
+.action,
+.action1 {
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.name {
+  width: 177px;
+  width: fit-content;
+  height: 36px;
+  color: rgba(11, 219, 182, 1);
+}
+
+.advocateDetailName {
+  height: 45px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.title {
+  height: 22px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.titleSpan {
+  height: 22px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: rgba(130, 130, 130, 1);
+}
+
+.qual {
+  height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.btnContainer {
+  width: 447px;
+  height: 37px;
+  display: flex;
+  gap: 24px;
+  /*gap is reduced from 25 and to keep it 25 chagne width of detial, btncontainer, cardleft*/
+  margin-top: 11px;
+}
+
+.advocateDetailBtnContainer {
+  width: 457px;
+  height: 37px;
+  gap: 29px;
+}
+
+.call,
+.call1,
+.call2 {
+  width: fit-content;
+  padding: 7.5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5px;
+  border-radius: 7.5px;
+  border: 0.75px solid rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.call:hover:not(.clickedAppointment),
+.call2:hover:not(.clickedAppointment) {
+  border: 1px solid rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+  color: rgba(31, 239, 202, 1);
+}
+
+.clickedAppointment {
+  border: 1px solid transparent;
+  background: rgba(31, 239, 202, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.call1 {
+  border: 0px solid rgba(0, 0, 0, 1);
+  background: rgba(11, 219, 182, 1);
+}
+
+.call1:hover {
+  background: rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+}
+
+.call2 {
+  width: 186px;
+  height: 37px;
+  padding: 7.5px 20px 7.5px 20px;
+  border-radius: 7.5px;
+  border: 0.75px solid rgba(0, 0, 0, 1);
+}
+
+.call {
+  width: 94.5px;
+  height: 37px;
+  padding: 7.5px 15px 7.5px 15px;
+  gap: 7.5px;
+  border-radius: 7.5px;
+  border: 0.75px solid rgba(0, 0, 0, 1);
+}
+
+.action1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.action,
+.action1 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.icon2 {
+  width: 22px;
+  height: 22px;
+}
+
+.cardRight {
+  width: fit-content;
+  width: 19.23px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardRightImg1 {
+  width: 19.23px;
+  height: 20px;
+}
+
+.cardRightImg2 {
+  width: 19px !important;
+  height: 18px;
+}
+
+.heartClicked {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.outer {
+  width: 1128px;
+  height: 186px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  overflow: visible;
+}
+
+.itemContainer {
+  width: 260px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.carouselImage {
+  width: 260px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.about {
+  margin: 0 auto;
+  padding: 0;
+  width: 162px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.imgContainerView {
+  position: absolute;
+  top: 100px;
+  right: -23px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(175, 31, 31);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 28.2px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+}
+
+.imageView {
+  position: relative;
+  left: 2px;
+  width: 7.4px;
+  height: 12px;
+}

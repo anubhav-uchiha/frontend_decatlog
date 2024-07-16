@@ -1,0 +1,152 @@
+.cardContainer {
+  box-sizing: border-box;
+  width: 100%;
+  height: 88px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(248, 248, 248, 1);
+}
+
+.cardInnerContainer {
+  box-sizing: border-box;
+  width: calc(100% - 48px);
+  height: fit-content;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15.97px;
+}
+
+.topDiv {
+  box-sizing: border-box;
+  width: fit-content;
+  width: 100%;
+  height: 39.93px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.heading {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  height: 23.96px;
+  top: 100.98px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: rgba(34, 34, 34, 1);
+}
+
+.image {
+  box-sizing: border-box;
+  width: 40px;
+  height: 39.93px;
+  border-radius: 8px;
+}
+
+.btmDiv {
+  box-sizing: border-box;
+  width: 429.02px;
+  height: 71.88px;
+}
+
+.para {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(125, 125, 125, 1);
+}
+
+/*comp styles*/
+
+.faqOuter {
+  box-sizing: border-box;
+  height: fit-content;
+  padding: 85px 0px;
+  background: rgba(255, 255, 255, 1);
+  margin: auto;
+}
+
+.faqInner {
+  box-sizing: border-box;
+  width: 100vw;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.faqHeading {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  text-align: center;
+  color: rgba(34, 34, 34, 1);
+  overflow: hidden;
+}
+
+.faqHeadingSpan {
+  color: rgba(11, 219, 182, 1);
+}
+
+.faqBtmContainer {
+  box-sizing: border-box;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.CardContainer1 {
+  box-sizing: border-box;
+  display: flex;
+  gap: 24px;
+}
+
+@media (min-width: 552px) {
+  .cardContainer {
+    width: 552px;
+  }
+}
+
+@media (min-width: 1128px) {
+  .faqInner {
+    width: 1128px;
+  }
+}
+
+@media (max-width: 550px) {
+  .faqHeading {
+    font-size: 22px;
+  }
+
+  .cardContainer {
+    height: 68px;
+  }
+}

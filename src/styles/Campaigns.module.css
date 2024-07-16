@@ -1,0 +1,371 @@
+.cardOuterContainer {
+  box-sizing: border-box;
+  width: 260px;
+  height: 440px;
+  padding: 15px 10px 27px 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1),
+    0px 3px 3px 0px rgba(0, 0, 0, 0.09), 0px 7px 4px 0px rgba(0, 0, 0, 0.05),
+    0px 13px 5px 0px rgba(0, 0, 0, 0.01), 0px 20px 6px 0px rgba(0, 0, 0, 0),
+    0px -2px 14.6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cardOuterContainer:hover {
+  transform: scale(1.05);
+  transition: transform 0.8s ease-in-out;
+}
+
+.cardInnerContainer {
+  box-sizing: border-box;
+  width: 255px;
+  height: 398px;
+}
+
+.topDiv {
+  box-sizing: border-box;
+  width: 240px;
+  height: 120px;
+  border-radius: 2px;
+}
+
+.btmDiv {
+  box-sizing: border-box;
+  width: 237px;
+  height: 266px;
+  margin: 0 9px;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.infoDiv {
+  box-sizing: border-box;
+  width: 237px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.uprDiv {
+  box-sizing: border-box;
+  width: 228px;
+  height: 107px;
+}
+
+.headingCard {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 154px;
+  height: 24px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.paraDiv {
+  box-sizing: border-box;
+  width: 92px;
+  height: 24px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 3px;
+}
+
+.imgDiv {
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  padding: 4.96px 2px 5.23px 2px;
+  flex-shrink: 0;
+}
+
+.para {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 12px !important;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(151, 151, 151, 1);
+}
+
+.empower {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  width: 228px;
+  height: 51px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(151, 151, 151, 1);
+}
+
+.lwrDiv {
+  box-sizing: border-box;
+  width: 237px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.topLwr {
+  box-sizing: border-box;
+  width: 225px;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.raised,
+.goal {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.spanLwrDiv {
+  box-sizing: border-box;
+  color: rgba(151, 151, 151, 1);
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.midLwr {
+  box-sizing: border-box;
+  margin-top: 05px;
+}
+
+.raisedByImage {
+  width: 218px;
+}
+
+.raisedBy {
+  box-sizing: border-box;
+  width: 218px;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(151, 151, 151, 1);
+}
+
+.donate {
+  box-sizing: border-box;
+  height: 40px;
+  margin: 0 auto;
+  margin-left: 2px;
+  margin-right: 17px;
+  padding: 0px 60px 0px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(11, 219, 182, 1);
+  z-index: 1000;
+}
+
+.donate:hover {
+  background: rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+}
+
+/*comp styles below*/
+.campaignOutermostContainer {
+  box-sizing: border-box;
+  height: fit-content;
+  padding: 85px 0px;
+  margin: auto;
+}
+
+.campaignInnerContainer {
+  box-sizing: border-box;
+  width: 1128px;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.campaingTopDiv {
+  box-sizing: border-box;
+  margin-left: 351px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topLeft {
+  box-sizing: border-box;
+  width: 418px;
+  height: 80px;
+  padding: 11.5px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  width: 367px;
+  height: 17px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.headingSpan {
+  box-sizing: border-box;
+  color: rgba(11, 219, 182, 1);
+}
+
+.paraCard {
+  box-sizing: border-box;
+  width: 418px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(125, 125, 125, 1);
+}
+
+.topRight {
+  box-sizing: border-box;
+  width: 75px;
+  height: 26px;
+  border-radius: 5px;
+  border: 1px solid rgba(11, 219, 182, 1);
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.topRight:hover {
+  border: 1px solid rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+  color: rgba(31, 239, 202, 1);
+}
+
+.view {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.campaignBtmDiv {
+  box-sizing: border-box;
+  margin-top: 50px;
+  height: fit-content;
+}
+
+.leftBtmDiv {
+  box-sizing: border-box;
+  height: 440px;
+  height: fit-content;
+  margin-top: 50px;
+  display: flex;
+  justify-self: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+@media (max-width: 480px) {
+  .campaignInnerContainer {
+    width: 450px;
+  }
+
+  .campaingTopDiv {
+    margin: 0;
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+  }
+
+  .leftBtmDiv {
+    width: 450px;
+    height: fit-content;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+}
+
+/**/
+@media (min-width: 500px) and (max-width: 850px) {
+  .campaignOutermostContainer {
+    width: 800px;
+    margin: 0;
+    padding: 85px 0;
+  }
+
+  .campaignInnerContainer {
+    width: 800px;
+    margin: 0;
+  }
+
+  .campaingTopDiv {
+    width: 800px;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .leftBtmDiv {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}

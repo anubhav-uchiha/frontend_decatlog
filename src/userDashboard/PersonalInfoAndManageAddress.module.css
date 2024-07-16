@@ -1,0 +1,448 @@
+.personalInfoOuter {
+  box-sizing: border-box;
+  width: 557px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.commonDiv {
+  box-sizing: border-box;
+  width: auto;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.topDiv {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.para,
+.paraGender,
+.edit {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.edit {
+  height: 17px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(42, 118, 240, 1);
+}
+
+.genderDiv {
+  box-sizing: border-box;
+  width: 152px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 05px;
+}
+
+.paraGender {
+  width: 88px;
+  height: 25px;
+  font-size: 14px;
+}
+
+.btmDiv {
+  box-sizing: border-box;
+  width: 557px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.input1 {
+  box-sizing: border-box;
+  width: 261px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(252, 252, 252, 1);
+  border: 1px solid rgba(240, 240, 240, 1);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.02),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.02), 0px 5px 3px 0px rgba(0, 0, 0, 0.01),
+    0px 8px 3px 0px rgba(0, 0, 0, 0), 0px 13px 4px 0px rgba(0, 0, 0, 0);
+  outline: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+/*manage add styles*/
+.addContainer {
+  box-sizing: border-box;
+  width: 744px;
+  height: 727px;
+  margin-top: -30px;
+  padding-left: 20px;
+}
+
+.topDivAdd {
+  box-sizing: border-box;
+  width: 704px;
+  height: 45px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.manageAdd,
+.newAdd,
+.defaultAdd,
+.name,
+.addLineOne {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.newAdd {
+  width: 192px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  font-size: 16px;
+  color: rgba(11, 219, 182, 1);
+}
+
+.newAdd:not(.newAddClicked):hover {
+  border: 1px solid rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+}
+
+.newAddClicked {
+  border: 1px solid transparent;
+  background: rgba(31, 239, 202, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.midDivAdd,
+.btmDivAdd {
+  box-sizing: border-box;
+  width: 704px;
+  height: 236px;
+  margin-top: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.defaultAdd,
+.name {
+  font-size: 16px;
+}
+
+.defaultInnerDiv {
+  box-sizing: border-box;
+  width: 704px;
+  height: 191px;
+  border-radius: 3px;
+  background: rgba(252, 252, 252, 1);
+  border: 1px solid rgba(240, 240, 240, 1);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.02),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.02), 0px 5px 3px 0px rgba(0, 0, 0, 0.01),
+    0px 8px 3px 0px rgba(0, 0, 0, 0), 0px 13px 4px 0px rgba(0, 0, 0, 0);
+}
+
+.defaultAddContainer {
+  box-sizing: border-box;
+  width: 344px;
+  height: 90px;
+  margin: 24px 0;
+  margin-bottom: 24px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.addLineOne {
+  width: 344px;
+  font-size: 14px;
+  color: rgba(110, 110, 110, 1);
+}
+
+.btnDiv {
+  box-sizing: border-box;
+  height: 53px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.editBtn,
+.removeBtn {
+  box-sizing: border-box;
+  width: 352px;
+  height: 53px;
+  gap: 10px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  border-bottom: 0;
+  border-left: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(70, 70, 70, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editBtn:hover,
+.removeBtn:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.removeBtn {
+  border-right: 0;
+}
+/*reviews styles below*/
+.reviewOuter {
+  box-sizing: border-box;
+  width: 744px;
+  height: 1056px;
+  margin-top: -30px;
+  padding: 20px;
+}
+
+.topDivReview {
+  box-sizing: border-box;
+  width: 704px;
+  height: 33.5px;
+  margin-top: 05px;
+  margin-bottom: 16.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviewHeading,
+.sort,
+.nameHeadingReview {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.reviewHeading {
+  text-decoration: underline;
+}
+
+.reviewHeadingSpan {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  color: rgba(170, 170, 170, 1);
+  font-size: 20px;
+  overflow: hidden;
+  text-decoration-color: white;
+}
+
+.sortDiv {
+  box-sizing: border-box;
+  width: 96px;
+  height: 33.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 03px;
+  border-radius: 3px;
+  background: rgba(235, 235, 235, 1);
+  cursor: pointer;
+}
+
+.sort {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-decoration: none;
+}
+
+.cardDivReview {
+  box-sizing: border-box;
+  width: 704px;
+  height: 307px;
+  padding: 25px 20px 25px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 3px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  background: rgba(252, 252, 252, 1);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.02),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.02), 0px 5px 3px 0px rgba(0, 0, 0, 0.01),
+    0px 8px 3px 0px rgba(0, 0, 0, 0), 0px 13px 4px 0px rgba(0, 0, 0, 0);
+}
+
+.reviewImage {
+  box-sizing: border-box;
+  width: 104px;
+  height: 104px;
+}
+
+.reviewDetails {
+  box-sizing: border-box;
+  width: 544px;
+  height: 257px;
+}
+
+.nameHeadingReview {
+  font-size: 18px;
+  line-height: 26.94px;
+}
+
+.ratingContainer {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 29px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.ratingStarDiv {
+  box-sizing: border-box;
+  width: 45.13px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  border-radius: 4.5px;
+  background: rgba(35, 146, 80, 1);
+}
+
+.ratingNumber,
+.recommendation,
+.detailedReview,
+.reviewedBy,
+.time {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.recommendation {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.94px;
+  color: rgba(1, 22, 18, 1);
+}
+
+.detailedReview {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.94px;
+  text-align: left;
+  color: rgba(1, 22, 18, 1);
+}
+
+.reviewedByDiv {
+  box-sizing: border-box;
+  width: 206px;
+  height: 25px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.reviewedBy {
+  line-height: 25px;
+  color: rgba(110, 110, 110, 1);
+}
+
+.time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.96px;
+  line-height: 25px;
+  color: rgba(110, 110, 110, 1);
+}
+
+.reviewBtnDiv {
+  box-sizing: border-box;
+  width: 155px;
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.editReview,
+.deleteReview,
+.shareReview {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(42, 118, 240, 1);
+}
+
+.reviewCardContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

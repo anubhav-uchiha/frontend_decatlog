@@ -1,0 +1,51 @@
+.faqOuter {
+  background: rgba(246, 253, 248, 1);
+  padding: 85px 0;
+}
+
+.faqInner {
+  width: 1128px;
+  height: 675px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.headingFaq,
+.ques {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.cardOuter {
+  width: 1128px;
+  height: 60px;
+  display: flex;
+  padding: 15px 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+  border-left: 7px solid rgba(11, 219, 182, 1);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.05),
+    -1px -1px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.ques {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.image {
+  cursor: pointer;
+  width: 24px;
+  height: 12px;
+}

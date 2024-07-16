@@ -1,0 +1,351 @@
+.outerContainer {
+  box-sizing: border-box;
+  height: 970px;
+  height: fit-content;
+  background: rgba(246, 253, 248, 1);
+  padding: 85px 0px;
+}
+
+.innerContainer {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 800px;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.topDiv {
+  box-sizing: border-box;
+  width: 773px;
+  height: 62px;
+  margin-left: 355px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftDiv {
+  box-sizing: border-box;
+  width: 418px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.heading {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  width: 313px;
+  height: 32px;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.headingSpan {
+  box-sizing: border-box;
+  color: rgba(11, 219, 182, 1);
+  margin: 0;
+  padding: 0;
+}
+
+.paraTopDiv {
+  box-sizing: border-box;
+  width: 418px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(125, 125, 125, 1);
+}
+
+.rightDiv {
+  box-sizing: border-box;
+  width: 75px;
+  height: 26px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(11, 219, 182, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.rightDiv:hover {
+  border: 1px solid rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+  color: rgba(31, 239, 202, 1);
+}
+
+.viewBtn {
+  box-sizing: border-box;
+  width: 75px;
+  height: 26px;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.btmDiv {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 688px;
+  height: fit-content;
+  display: flex;
+  gap: 18px;
+}
+
+.btmChild1 {
+  box-sizing: border-box;
+  width: 267px;
+  height: 688px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btmChild2 {
+  box-sizing: border-box;
+  width: 540px;
+  height: 688px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btmChild3 {
+  box-sizing: border-box;
+  width: 289px;
+  height: 688px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/*card1 styles*/
+.outerDivCard1 {
+  box-sizing: border-box;
+  width: 263px;
+  height: 429px;
+  border-radius: 15.36px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(202, 196, 208, 1);
+}
+
+.midDivCard1 {
+  box-sizing: border-box;
+  width: 220px;
+  height: 141px;
+  margin-left: 18px;
+  margin-top: 18.24px;
+}
+
+.paraMidDivCard1,
+.paraMidDivCard4 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: rgba(125, 125, 125, 1);
+}
+
+.btmDivCard1 {
+  box-sizing: border-box;
+  width: 94px;
+  height: 59.16px;
+  margin-top: 8.35px;
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.nameBtmDivCard1,
+.nameBtmDivCard3 {
+  box-sizing: border-box;
+  width: 94px;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: rgba(41, 50, 56, 1);
+}
+
+.titleBtmDivCard1 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 13.44px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+  color: rgba(125, 122, 122, 1);
+}
+
+.ratingBtmDivCardDiv1 {
+  box-sizing: border-box;
+  width: 77.78px;
+  height: 12.48px;
+  margin: 0;
+  margin-top: 7.68px;
+  padding: 0;
+  display: flex;
+}
+
+/*card3 styles*/
+.outerDivCard3 {
+  box-sizing: border-box;
+  width: 540px;
+  height: 254.46px;
+  margin-bottom: 3.54px;
+  display: flex;
+  gap: 21.37px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(202, 196, 208, 1);
+}
+
+.leftDivCard3 {
+  box-sizing: border-box;
+  width: 271.63px;
+  height: 254.46px;
+}
+
+.rightDivCard3 {
+  box-sizing: border-box;
+  width: 225px;
+  height: 200px;
+  padding-top: 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.btmDivCard3 {
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+.nameBtmDivCard3 {
+  width: 100px;
+}
+/*card4 styles*/
+.outerDivCard4 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(202, 196, 208, 1);
+  cursor: pointer;
+}
+
+.outerDivCard1:hover,
+.outerDivCard3:hover,
+.outerDivCard4:hover {
+  transform: scale(1.03);
+  transition: transform 0.8s ease-in-out;
+}
+
+.btmDivCard4 {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 60.49px;
+  margin-top: 8px;
+}
+
+.topDivCard4 {
+  box-sizing: border-box;
+  display: flex;
+  gap: 13px;
+  width: 142px;
+  height: 57.38px;
+  gap: 13px;
+}
+
+.ratingBtmDivCardDiv4 {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 7px;
+}
+
+@media (min-width: 1128px) {
+  .innerContainer {
+    width: 1128px;
+  }
+
+  .btmDiv {
+    width: 1128px;
+  }
+}
+
+@media (max-width: 530px) {
+  .topDiv {
+    width: 100vw;
+    height: fit-content;
+    margin: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 950px) {
+  .topDiv {
+    box-sizing: border-box;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 20px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .leftDiv {
+    box-sizing: border-box;
+    width: 418px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .btmDiv {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

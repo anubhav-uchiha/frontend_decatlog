@@ -1,0 +1,100 @@
+.outerContainer {
+  box-sizing: border-box;
+  width: 360px;
+  height: 164px;
+  border-radius: 16px;
+  gap: 0px;
+  position: relative;
+  cursor: pointer;
+}
+
+.outerContainer:hover {
+  transform: scale(1.05);
+  transition: transform 1s ease-in-out;
+}
+
+.left {
+  box-sizing: border-box;
+  width: 162.12px;
+  height: 60px;
+  color: rgba(255, 241, 230, 1);
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 47px;
+  left: 8.55px;
+  z-index: 1000;
+}
+
+.leftOne {
+  box-sizing: border-box;
+  width: 11.12px;
+  height: 17.49px;
+  margin-top: 6px;
+  padding: 0;
+  gap: 0px;
+}
+
+.para2 {
+  box-sizing: border-box;
+  font-family: Acme;
+  width: 20px;
+  position: relative;
+  right: 4px;
+  bottom: 1px;
+}
+
+.leftTwo {
+  box-sizing: border-box;
+  width: 148px;
+  height: 60px;
+}
+
+.para1 {
+  box-sizing: border-box;
+  font-family: Acme;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  color: rgba(255, 241, 230, 1);
+}
+
+.right {
+  box-sizing: border-box;
+  padding: 1px;
+  width: 189px;
+  height: 164px;
+  overflow: hidden;
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+  z-index: 100;
+}
+
+.right2 {
+  box-sizing: border-box;
+  padding: 1px;
+  width: 215px;
+  height: 164px;
+  overflow: hidden;
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+  z-index: 100;
+}
+
+.image {
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image2 {
+  box-sizing: border-box;
+  display: block;
+  object-fit: contain;
+}

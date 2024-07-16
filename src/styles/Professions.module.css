@@ -1,0 +1,334 @@
+/*profession card styles*/
+
+.outerContainer {
+  box-sizing: border-box;
+  width: 270px !important;
+  height: 72px;
+  padding-top: 11px;
+  padding-left: 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.06);
+}
+
+.outerContainer:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+}
+
+.innerContainer {
+  box-sizing: border-box;
+  width: 239px !important;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.leftDiv {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.image {
+  border-radius: 5px;
+}
+
+.rightDiv {
+  box-sizing: border-box;
+  width: 173px;
+  height: 40px;
+}
+
+.title {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 24px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(34, 34, 34, 1);
+}
+
+.paraCard {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 16px;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(125, 125, 125, 1);
+}
+/*comp styles*/
+.outermostSectionContainer {
+  box-sizing: border-box;
+  height: fit-content;
+  padding: 85px 0;
+  background: rgba(246, 253, 248, 1);
+  margin: 0 auto;
+}
+
+.innerContainer2 {
+  box-sizing: border-box;
+  width: 1128px;
+  height: fit-content;
+  margin: auto;
+}
+
+.topDiv {
+  box-sizing: border-box;
+  width: 821.5px;
+  height: 78px;
+  height: fit-content;
+  margin-left: 306.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topLeft {
+  box-sizing: border-box;
+  width: 515px;
+  height: 78px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.heading {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 28px;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(34, 34, 34, 1);
+}
+
+.headingSpan {
+  color: rgba(11, 219, 182, 1);
+}
+
+.para {
+  box-sizing: border-box;
+  padding: 0;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(125, 125, 125, 1);
+}
+
+.topRight {
+  box-sizing: border-box;
+  width: 75px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+  border-radius: 5px;
+  border: 1px solid rgba(11, 219, 182, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.topRight:hover {
+  border: 1px solid rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+  color: rgba(31, 239, 202, 1);
+}
+
+.view {
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.btmDiv {
+  box-sizing: border-box;
+  width: 1128px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+.btm1,
+.btm2,
+.btm3 {
+  box-sizing: border-box;
+  width: 1128px;
+  height: 72px;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0px;
+}
+
+.leftBtm1,
+.leftBtm2,
+.leftBtm3,
+.rightBtm1,
+.rightBtm2,
+.rightBtm3 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 564px;
+  height: 72px;
+  height: fit-content;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.leftBtm1,
+.leftBtm2,
+.leftBtm3 {
+  padding-right: 8px;
+}
+
+.rightBtm1,
+.rightBtm2,
+.rightBtm3 {
+  padding-left: 8px;
+}
+
+@media (max-width: 500px) {
+  .outermostSectionContainer {
+    margin-top: 50px;
+  }
+
+  .topDiv {
+    width: 450px;
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .para {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .btm1,
+  .btm2,
+  .btm3 {
+    width: 450px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .leftBtm1,
+  .leftBtm2,
+  .leftBtm3,
+  .rightBtm1,
+  .rightBtm2,
+  .rightBtm3 {
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftBtm1,
+  .leftBtm2,
+  .leftBtm3,
+  .rightBtm1,
+  .rightBtm2,
+  .rightBtm3 {
+    padding: 0px;
+  }
+}
+
+/***/
+@media (min-width: 500px) and (max-width: 850px) {
+  .outermostSectionContainer {
+    width: 800px;
+    margin: 0;
+    padding: 85px 0;
+  }
+
+  .innerContainer2 {
+    width: 795px;
+    margin: 0;
+  }
+
+  .topDiv {
+    width: 790px;
+    margin: 0;
+    margin-bottom: 50px;
+    justify-content: space-between;
+  }
+
+  .btmDiv {
+    width: 780px;
+    margin: 0 auto;
+  }
+
+  .btm1,
+  .btm2,
+  .btm3 {
+    width: 775px;
+    margin: 0;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .leftBtm1,
+  .leftBtm2,
+  .leftBtm3,
+  .rightBtm1,
+  .rightBtm2,
+  .rightBtm3 {
+    margin: 0;
+    padding: 0;
+    width: 564px;
+    height: 72px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+  }
+
+  .leftBtm1,
+  .leftBtm2,
+  .leftBtm3 {
+    padding-right: 0px;
+  }
+
+  .rightBtm1,
+  .rightBtm2,
+  .rightBtm3 {
+    padding-left: 0px;
+  }
+}

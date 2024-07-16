@@ -1,0 +1,25 @@
+.headingContainer {
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headingLeft,
+.headingRight {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.headingRight {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: rgba(11, 219, 182, 1);
+}

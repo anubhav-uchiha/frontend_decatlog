@@ -1,0 +1,172 @@
+.midSectionOuter {
+  margin-top: 7px;
+  padding-top: 49px;
+  height: 857px;
+  background-color: rgba(246, 253, 248, 1);
+}
+
+.headingSpan{
+  color: rgba(11, 219, 182, 1);
+}
+
+.midSection {
+  width: 1128px;
+  height: fit-content;
+  height: 808px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.imageDiv {
+  width: 515px;
+  height: 808px;
+}
+
+.listingProfessional {
+  width: 515px;
+  height: 808px;
+}
+
+.detailContainer {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.detialsHeading {
+  width: 600px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading,
+.headingPara {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50.46px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.headingPara {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.signupInputDiv {
+  width: 514px;
+  height: 401.38px;
+  margin: 0 auto;
+  margin-top: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 27.84px;
+}
+
+.inputNameSignup,
+.inputEmailSignup,
+.inputPhoneNumberSignup,
+.buttonSignup {
+  width: 514px;
+  height: 46px;
+  padding: 11px 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(147, 143, 150, 1);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonSignup {
+  background: rgba(11, 219, 182, 1);
+  border: 0px solid rgba(147, 143, 150, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.buttonDisabled{
+  cursor: not-allowed;
+  background-color: rgba(212, 212, 212, 1);
+  color: rgba(150, 150, 150, 1);
+}
+
+.bottomPara {
+  height: 20px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(170, 170, 170, 1);
+}
+
+.spanPrivacy {
+  color: rgba(17, 126, 217, 1);
+}
+
+.professionContainer {
+  width: 514px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.professionContainerRow {
+  width: 514px;
+  height: 40px;
+  display: flex;
+  gap: 37px;
+}
+
+.profession {
+  width: fit-content;
+  height: 40px;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  color: black;
+  border: 0.25px solid rgba(125, 125, 125, 1)
+}
+
+.professionClicked{
+  color: white;
+  background-color: rgba(11, 219, 182, 1);
+  border: 0.25px solid transparent
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}

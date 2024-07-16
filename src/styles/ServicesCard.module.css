@@ -1,0 +1,54 @@
+.cardContainer {
+  box-sizing: border-box;
+  width: 150px;
+  height: 195px;
+  cursor: pointer;
+}
+
+.cardBackground {
+  box-sizing: border-box;
+  width: 150px;
+  height: 142px;
+  gap: 0px;
+  border-radius: 8px;
+}
+
+.imageHolder {
+  box-sizing: border-box;
+  width: 122px;
+  height: 163px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.serviceProvider {
+  box-sizing: border-box;
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.serviceProvider:hover {
+transform: scale(1.05);
+transition: transform 0.5s ease-in-out;
+}
+
+.titleContainer {
+  box-sizing: border-box;
+  width: 63px;
+  height: 24px;
+  margin: auto;
+}
+
+.category {
+  box-sizing: border-box;
+  width: 100%;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: center;
+  color: rgba(72, 70, 76, 1);
+}

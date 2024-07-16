@@ -1,0 +1,210 @@
+.outerContainer {
+  box-sizing: border-box;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContainer {
+  box-sizing: border-box;
+  width: 1128px;
+  overflow: hidden;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 150px;
+}
+
+.leftDiv {
+  box-sizing: border-box;
+  width: 194px;
+  height: 30px;
+  /*padding: 0px 1.99px 0px 2.33px; due to this left padding its little offset*/
+}
+
+.rightDiv {
+  box-sizing: border-box;
+  width: 784px;
+  width: fit-content;
+  height: 40px;
+  padding: 0px 0px 0px 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+
+.optionsContainer {
+  width: 377px;
+  height: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.navItem1,
+.navItem2,
+.navItem3,
+.navItem4 {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 20px;
+  cursor: pointer;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: rgba(34, 34, 34, 1);
+}
+
+.navItem1:hover,
+.navItem2:hover,
+.navItem3:hover,
+.navItem4:hover {
+  color: rgba(11, 219, 182, 1);
+}
+
+.btnDiv {
+  box-sizing: border-box;
+  width: 291px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.loginBtn,
+.donateBtn {
+  box-sizing: border-box;
+  width: 148px;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(11, 219, 182, 1);
+  color: rgba(11, 219, 182, 1);
+  background-color: white;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+}
+
+.donateBtn {
+  width: 135px;
+}
+
+.loginBtn:hover,
+.donateBtn:hover {
+  border: 1.5px solid rgba(31, 239, 202, 1);
+  color: rgba(31, 239, 202, 1);
+}
+
+.noAccountPara {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 172px;
+  height: 21px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.userImage:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+  transition: transform 0.5s ease-in-out;
+}
+
+@media (max-width: 750px) {
+  .headerContainer {
+    gap: 0px;
+  }
+
+  .leftDiv {
+    width: 194px;
+    flex-shrink: 0.4;
+  }
+
+  .rightDiv {
+    gap: 5px;
+  }
+
+  .optionsContainer {
+    display: none;
+  }
+
+  .home {
+    box-sizing: border-box;
+    width: 30px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    color: rgba(11, 219, 182, 1);
+  }
+
+  .loginBtn,
+  .donateBtn {
+    width: fit-content;
+  }
+
+  .loginBtn,
+  .donateBtn {
+    width: fit-content;
+    padding: 0 10px;
+  }
+}
+
+/**/
+@media (min-width: 750px) {
+  .home {
+    display: none;
+  }
+}
+
+/**/
+@media (min-width: 750px) and (max-width: 810px) {
+  .headerContainer {
+    gap: 0px;
+  }
+
+  .leftDiv {
+    width: 200px;
+  }
+
+  .rightDiv {
+    width: 606px;
+    gap: 6px;
+    display: flex;
+  }
+
+  .optionsContainer {
+    width: 400px;
+  }
+
+  .navItem1,
+  .navItem2,
+  .navItem3,
+  .navItem4 {
+    font-size: 12px;
+  }
+
+  .loginBtn,
+  .donateBtn {
+    width: fit-content;
+    padding: 0 12px;
+  }
+}

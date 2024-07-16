@@ -1,0 +1,452 @@
+.outerContainer {
+  box-sizing: border-box;
+  height: 800px;
+  padding-top: 60px;
+  padding-bottom: 71.74px;
+  background: rgba(246, 253, 248, 1);
+  box-shadow: inset 0px 5px 42px 2px rgba(0, 0, 0, 0.06);
+}
+
+.signupInnerContainer {
+  box-sizing: border-box;
+  width: 1128px;
+  height: 668.26px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
+}
+
+.signupLeft {
+  box-sizing: border-box;
+  width: 514px;
+  height: 668.26px;
+}
+
+.signupLeftTop {
+  box-sizing: border-box;
+  width: 514px;
+  height: 562.37px;
+  height: fit-content; /*only for otp and to be removed*/
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.signUpHeadingDiv {
+  box-sizing: border-box;
+  width: 501.19px;
+  margin: auto;
+  height: 119.43px;
+  display: flex;
+  flex-direction: column;
+  gap: 7.43px;
+}
+
+.signUpHeading {
+  box-sizing: border-box;
+  height: 56px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 37.13px;
+  font-weight: 500;
+  line-height: 55.69px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.signUpHeadingSpan {
+  box-sizing: border-box;
+  color: rgba(11, 219, 182, 1);
+  font-weight: 600;
+}
+
+.signUpPara {
+  box-sizing: border-box;
+  height: 56px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 18.56px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.signupInputDiv {
+  box-sizing: border-box;
+  width: 514px;
+  height: 275.53px;
+  height: fit-content; /**/
+  margin-top: 55.69px;
+  display: flex;
+  flex-direction: column;
+  gap: 27.84px;
+}
+
+.inputNameSignup,
+.inputEmailSignup,
+.inputPasswordSignup {
+  box-sizing: border-box;
+  width: 513.25px;
+  height: 48px;
+  padding: 17.35px 19px 15.65px 15.78px;
+  border-radius: 8px;
+  border: 1px solid rgba(147, 143, 150, 1);
+  background-color: transparent;
+}
+
+.buttonSignup {
+  box-sizing: border-box;
+  width: 514px;
+  height: 55px;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 22.27px;
+  font-weight: 500;
+  line-height: 33.41px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  background: rgba(11, 219, 182, 1);
+}
+
+.buttonSignup:hover {
+  background: rgba(31, 239, 202, 1);
+  box-shadow: 0px 2px 4.7px 0px rgba(90, 90, 90, 0.1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.leftBtmSignup {
+  box-sizing: border-box;
+  width: 269.15px;
+  height: 87.59px;
+  margin: auto;
+  margin-top: 24.13px;
+  display: flex;
+  flex-direction: column;
+  gap: 18.56px;
+}
+
+.segregationDiv {
+  box-sizing: border-box;
+  width: 269.15px;
+  height: 21px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.segLeft,
+.segRight {
+  box-sizing: border-box;
+  width: 111.38px;
+  height: 0.93px;
+  border: 0.93px solid rgba(230, 237, 254, 1);
+  background-color: rgba(230, 237, 254, 1);
+}
+
+.segPara {
+  box-sizing: border-box;
+  width: 20px;
+  height: 21px;
+  margin: 0px 13px;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 13.92px;
+  font-weight: 600;
+  line-height: 20.88px;
+  text-align: left;
+  color: rgba(170, 177, 194, 1);
+}
+
+.iconDivSignup {
+  box-sizing: border-box;
+  width: 185.86px;
+  height: 48.03px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20.88px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+  box-sizing: border-box;
+  width: 48.03px;
+  height: 48.03px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon1 {
+  background: rgba(231, 231, 231, 1);
+}
+
+.icon2 {
+  background: rgba(24, 119, 242, 1);
+}
+
+.icon3 {
+  background: rgba(0, 0, 0, 1);
+}
+
+.iconImg1 {
+  box-sizing: border-box;
+  width: 22.97px;
+  height: 24.02px;
+  position: relative;
+  top: 11.49px;
+  left: 12.53px;
+  gap: 0px;
+}
+
+.iconImg2 {
+  box-sizing: border-box;
+  width: 31.32px;
+  height: 31.32px;
+  position: relative;
+  top: 6.26px;
+  left: 8px;
+  gap: 0px;
+}
+
+.iconImg3 {
+  box-sizing: border-box;
+  width: 20.88px;
+  height: 24.79px;
+  position: relative;
+  top: 10.44px;
+  left: 12px;
+  gap: 0px;
+}
+
+.iconImg1:hover,
+.iconImg2:hover,
+.iconImg3:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.terms {
+  box-sizing: border-box;
+  width: 387px;
+  height: 20px;
+  margin: auto;
+  margin-top: 15px;
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(170, 170, 170, 1);
+}
+
+.signupLeftBtm {
+  box-sizing: border-box;
+  width: 483px;
+  height: 70px;
+  margin-top: 13.63px;
+  margin-left: 36.5px;
+  position: relative;
+  top: 25px;
+  top: -15px; /**/
+}
+
+.signupLeftBtmPara {
+  box-sizing: border-box;
+  width: 446px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgb(2, 1, 1);
+}
+
+.signupLeftBtmParaSpan {
+  color: rgba(11, 219, 182, 1);
+}
+
+.sparkle {
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.signupRight {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 494px;
+  height: 668.26px;
+  border-radius: 33.45px;
+  box-shadow: 0px 0px 77.8px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.signupRightImage {
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 33.45px;
+}
+
+/*otp screen styles below*/
+.otpOverlay {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otpOuter {
+  box-sizing: border-box;
+  width: 398.2px;
+  height: 336.6px;
+  margin: auto;
+  padding: 22.32px 28.6px 22.32px 28.6px;
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 8.8px 7.7px 26.4px 0px rgba(0, 0, 0, 0.1),
+    37.4px 30.8px 48.4px 0px rgba(0, 0, 0, 0.09),
+    83.6px 69.3px 64.9px 0px rgba(0, 0, 0, 0.05),
+    148.5px 123.2px 77px 0px rgba(0, 0, 0, 0.01),
+    232.1px 191.4px 84.7px 0px rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.otpHeading {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 26.4px;
+  font-weight: 500;
+  line-height: 39.6px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.enterOtpPara {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 5.5px;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 15.4px;
+  font-weight: 400;
+  line-height: 19.93px;
+  text-align: center;
+  color: rgba(158, 158, 158, 1);
+}
+
+.enterOtpParaSpan {
+  color: rgba(11, 219, 182, 1);
+}
+
+.inputContainer {
+  box-sizing: border-box;
+  width: 307.7px;
+  height: 36.96px;
+  margin: 33px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 33px;
+}
+
+.digit1 {
+  box-sizing: border-box;
+  width: 52.18px;
+  height: 36.96px;
+  padding: 6.48px 0px 5.48px 0px;
+  border-radius: 6.34px;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24.6px;
+  text-align: center;
+  border: 1.27px solid rgba(232, 232, 232, 1);
+  background: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  outline: none;
+  cursor: pointer;
+}
+
+.noOtpPara,
+.resendPara {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14.24px;
+  text-align: center;
+  color: rgba(158, 158, 158, 1);
+}
+
+.resendPara {
+  font-weight: 500;
+  margin-top: 5.5px;
+  color: #0bdbb6;
+  text-decoration: underline;
+}
+
+.verify {
+  box-sizing: border-box;
+  width: 203px;
+  height: 37px;
+  margin: 0 auto;
+  margin-top: 33px;
+  padding: 5.5px 77px 5.5px 77px;
+  border-radius: 8.8px;
+  font-family: Poppins;
+  font-size: 17.6px;
+  font-weight: 500;
+  line-height: 26.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  background: rgba(212, 212, 212, 1);
+  color: rgba(150, 150, 150, 1);
+  cursor: not-allowed !important;
+}
+
+.activeButton {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(11, 219, 182, 1);
+  cursor: pointer !important;
+}
+
+.errorBorder {
+  border: 0.5px solid #d75050;
+}
+
+.greenBorder {
+  border: 1px solid #0bdbb6;
+}

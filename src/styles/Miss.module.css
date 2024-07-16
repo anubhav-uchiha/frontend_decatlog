@@ -1,0 +1,87 @@
+.missContainer {
+  box-sizing: border-box;
+  height: 555px;
+  padding-top: 85px;
+  margin: auto;
+  margin-bottom: -20px;
+}
+
+.missInnerContainer {
+  box-sizing: border-box;
+  width: 1128px;
+  height: 480px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 102.92px;
+}
+
+.leftDiv {
+  box-sizing: border-box;
+  width: 379.98px;
+  height: 146.37px;
+  margin-top: 181px;
+}
+
+.heading {
+  box-sizing: border-box;
+  width: 359px;
+  height: 28px;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(11, 219, 182, 1);
+}
+
+.para {
+  box-sizing: border-box;
+  width: 379.98px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: rgba(125, 125, 125, 1);
+}
+
+.imgDiv {
+  box-sizing: border-box;
+  width: 376.58px;
+  height: 52.37px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.image {
+  box-sizing: border-box;
+  width: 172.14px;
+  height: 52.37px;
+  cursor: pointer;
+}
+.image:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+}
+
+.rightDiv {
+  box-sizing: border-box;
+  width: 645.57px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.rightImage {
+  box-sizing: border-box;
+  height: 445px;
+  position: relative;
+  top: 45px;
+}
